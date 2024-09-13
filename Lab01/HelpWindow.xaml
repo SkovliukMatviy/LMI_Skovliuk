@@ -1,0 +1,22 @@
+﻿<Window x:Class="Lab01.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Help" Height="300" Width="400">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Margin="10">
+            <Run Text="Текстовий редактор My Text Editor" FontWeight="Bold" FontSize="16"/>
+            <LineBreak/>
+            <Run Text="Цей редактор підтримує MDI інтерфейс, що дозволяє відкривати кілька вкладок одночасно."/>
+            <LineBreak/>
+            <Run Text="Основні функції:" FontWeight="Bold"/>
+            <LineBreak/>
+            <Run Text="1. Створення нових вкладок та відкриття існуючих файлів."/>
+            <Run Text="2. Збереження файлів у різних форматах."/>
+            <Run Text="3. Зміна кольору фону текстового редактора."/>
+            <Run Text="4. Вирізання, копіювання та вставка тексту."/>
+            <Run Text="5. В Undo і Redo змін."/>
+            <LineBreak/>
+            <Run Text="Для додаткової інформації звертайтесь до документації або підтримки."/>
+        </TextBlock>
+    </Grid>
+</Window>
